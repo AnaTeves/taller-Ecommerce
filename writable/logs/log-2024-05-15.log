@@ -1,0 +1,27 @@
+CRITICAL - 2024-05-15 14:05:37 --> syntax error, unexpected variable "$routes"
+in APPPATH\Config\Routes.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 15:01:53 --> Too few arguments to function CodeIgniter\Router\RouteCollection::post(), 1 passed in C:\xampp\htdocs\proyecto_Lu_Teves\app\Config\Routes.php on line 36 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 927.
+ 1 APPPATH\Config\Routes.php(36): CodeIgniter\Router\RouteCollection->post('Contacto_controller/formValidation')
+ 2 SYSTEMPATH\Router\RouteCollection.php(267): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 19:09:21 --> Call to undefined function App\Controllers\to_url()
+in APPPATH\Controllers\Contacto_controller.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Contacto_controller->formValidation()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacto_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-15 19:11:24 --> Too few arguments to function CodeIgniter\HTTP\Response::redirect(), 0 passed in C:\xampp\htdocs\proyecto_Lu_Teves\app\Controllers\Contacto_controller.php on line 53 and at least 1 expected
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 506.
+ 1 APPPATH\Controllers\Contacto_controller.php(53): CodeIgniter\HTTP\Response->redirect()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Contacto_controller->formValidation()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contacto_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

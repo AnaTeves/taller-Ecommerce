@@ -1,0 +1,144 @@
+CRITICAL - 2024-05-28 17:45:39 --> "authusers" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authusers')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('authusers', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 17:48:50 --> Class "Config\AuthUsers" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('verCarrito', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 17:49:24 --> Call to a member function insert() on null
+in APPPATH\Controllers\Carrito_controller.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->agregarCarrito()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 17:50:41 --> syntax error, unexpected token "[", expecting ":"
+in APPPATH\Controllers\Carrito_controller.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Carrito_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Carrito_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Carrito_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Carrito_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 17:51:07 --> Call to a member function insert() on null
+in APPPATH\Controllers\Carrito_controller.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->agregarCarrito()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 17:56:22 --> Call to a member function insert() on null
+in APPPATH\Controllers\Carrito_controller.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->agregarCarrito()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 19:58:22 --> Call to a member function insert() on null
+in APPPATH\Controllers\Carrito_controller.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->agregarCarrito()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 20:01:53 --> Call to a member function insert() on null
+in APPPATH\Controllers\Carrito_controller.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->agregarCarrito()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 20:01:58 --> Call to a member function insert() on null
+in APPPATH\Controllers\Carrito_controller.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->agregarCarrito()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 22:34:31 --> Undefined variable $categorias
+in APPPATH\Views\GestionProductos.php on line 10.
+ 1 APPPATH\Views\GestionProductos.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorias', 'APPPATH\\Views\\GestionProductos.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\GestionProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('GestionProductos', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(31): view('GestionProductos')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->gestion()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 22:56:50 --> Undefined variable $precios
+in APPPATH\Views\Catalogo.php on line 32.
+ 1 APPPATH\Views\Catalogo.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $precios', 'APPPATH\\Views\\Catalogo.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Catalogo', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(148): view('Catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->mostrarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 23:48:51 --> Undefined array key "categoria_descripcion"
+in APPPATH\Views\GestionProductos.php on line 48.
+ 1 APPPATH\Views\GestionProductos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categoria_descripcion"', 'APPPATH\\Views\\GestionProductos.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\GestionProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('GestionProductos', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(41): view('GestionProductos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->gestion()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 23:50:11 --> Undefined array key "categoria_descripcion"
+in APPPATH\Views\GestionProductos.php on line 48.
+ 1 APPPATH\Views\GestionProductos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categoria_descripcion"', 'APPPATH\\Views\\GestionProductos.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\GestionProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('GestionProductos', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(41): view('GestionProductos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->gestion()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 23:54:00 --> Undefined array key "categoria_descripcion"
+in APPPATH\Views\GestionProductos.php on line 48.
+ 1 APPPATH\Views\GestionProductos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categoria_descripcion"', 'APPPATH\\Views\\GestionProductos.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\GestionProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('GestionProductos', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(41): view('GestionProductos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->gestion()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 23:54:55 --> Undefined array key "categoria_descripcion"
+in APPPATH\Views\GestionProductos.php on line 48.
+ 1 APPPATH\Views\GestionProductos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categoria_descripcion"', 'APPPATH\\Views\\GestionProductos.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\GestionProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('GestionProductos', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(41): view('GestionProductos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->gestion()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 23:56:13 --> Undefined array key "categoria_descripcion"
+in APPPATH\Views\GestionProductos.php on line 48.
+ 1 APPPATH\Views\GestionProductos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categoria_descripcion"', 'APPPATH\\Views\\GestionProductos.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\GestionProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('GestionProductos', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(41): view('GestionProductos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->gestion()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-28 23:56:33 --> Undefined array key "categoria_descripcion"
+in APPPATH\Views\GestionProductos.php on line 48.
+ 1 APPPATH\Views\GestionProductos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categoria_descripcion"', 'APPPATH\\Views\\GestionProductos.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\GestionProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('GestionProductos', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(41): view('GestionProductos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->gestion()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

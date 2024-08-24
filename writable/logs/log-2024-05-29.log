@@ -1,0 +1,195 @@
+CRITICAL - 2024-05-29 00:00:55 --> Undefined array key "categoria_descripcion"
+in APPPATH\Views\GestionProductos.php on line 48.
+ 1 APPPATH\Views\GestionProductos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categoria_descripcion"', 'APPPATH\\Views\\GestionProductos.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\GestionProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('GestionProductos', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(41): view('GestionProductos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->gestion()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 00:05:42 --> Undefined array key "categoria_descripcion"
+in APPPATH\Views\GestionProductos.php on line 48.
+ 1 APPPATH\Views\GestionProductos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categoria_descripcion"', 'APPPATH\\Views\\GestionProductos.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\GestionProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('GestionProductos', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(41): view('GestionProductos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->gestion()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 02:58:22 --> Undefined array key "categoria_descripcion"
+in APPPATH\Views\GestionProductos.php on line 50.
+ 1 APPPATH\Views\GestionProductos.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categoria_descripcion"', 'APPPATH\\Views\\GestionProductos.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\GestionProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('GestionProductos', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(41): view('GestionProductos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->gestion()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 02:59:56 --> Undefined array key "categoria_descripcion"
+in APPPATH\Views\GestionProductos.php on line 50.
+ 1 APPPATH\Views\GestionProductos.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categoria_descripcion"', 'APPPATH\\Views\\GestionProductos.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\GestionProductos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('GestionProductos', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(41): view('GestionProductos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->gestion()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 05:29:10 --> Undefined variable $validation
+in APPPATH\Views\Form_modificarProducto.php on line 9.
+ 1 APPPATH\Views\Form_modificarProducto.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\Form_modificarProducto.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Form_modificarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Form_modificarProducto', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(168): view('Form_modificarProducto', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->modificarProducto('12')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 06:10:00 --> syntax error, unexpected token "echo", expecting "," or ";"
+in APPPATH\Controllers\Carrito_controller.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Carrito_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Carrito_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Carrito_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Carrito_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 06:12:57 --> Undefined array key "rowid"
+in APPPATH\Views\Carrito.php on line 33.
+ 1 APPPATH\Views\Carrito.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rowid"', 'APPPATH\\Views\\Carrito.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Carrito', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(36): view('Carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCarrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 06:15:36 --> Undefined array key "rowid"
+in APPPATH\Views\Carrito.php on line 33.
+ 1 APPPATH\Views\Carrito.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rowid"', 'APPPATH\\Views\\Carrito.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Carrito', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(36): view('Carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCarrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 06:19:05 --> Undefined array key "rowid"
+in APPPATH\Views\Carrito.php on line 33.
+ 1 APPPATH\Views\Carrito.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rowid"', 'APPPATH\\Views\\Carrito.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Carrito', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(36): view('Carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCarrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 06:30:15 --> Undefined array key "rowid"
+in APPPATH\Views\Carrito.php on line 33.
+ 1 APPPATH\Views\Carrito.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rowid"', 'APPPATH\\Views\\Carrito.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Carrito', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(37): view('Carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCarrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 06:31:02 --> Undefined array key ""
+in APPPATH\Views\Carrito.php on line 33.
+ 1 APPPATH\Views\Carrito.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'APPPATH\\Views\\Carrito.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Carrito', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(37): view('Carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCarrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 06:31:28 --> Undefined array key "rowid"
+in APPPATH\Views\Carrito.php on line 33.
+ 1 APPPATH\Views\Carrito.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rowid"', 'APPPATH\\Views\\Carrito.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Carrito', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(37): view('Carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCarrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 06:31:50 --> Undefined array key "rowid"
+in APPPATH\Views\Carrito.php on line 33.
+ 1 APPPATH\Views\Carrito.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rowid"', 'APPPATH\\Views\\Carrito.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Carrito', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(37): view('Carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCarrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 22:13:09 --> Class "App\Controllers\VentaModel" not found
+in APPPATH\Controllers\Carrito_controller.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->terminarCompra()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 23:33:19 --> Class "App\Controllers\Factura_model" not found
+in APPPATH\Controllers\Carrito_controller.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->terminarCompra()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 23:33:59 --> Undefined variable $cart
+in APPPATH\Controllers\Carrito_controller.php on line 71.
+ 1 APPPATH\Controllers\Carrito_controller.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cart', 'APPPATH\\Controllers\\Carrito_controller.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->terminarCompra()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 23:34:45 --> Undefined variable $venta_id
+in APPPATH\Controllers\Carrito_controller.php on line 82.
+ 1 APPPATH\Controllers\Carrito_controller.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $venta_id', 'APPPATH\\Controllers\\Carrito_controller.php', 82)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->terminarCompra()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 23:35:06 --> Undefined variable $detalleVenta
+in APPPATH\Controllers\Carrito_controller.php on line 97.
+ 1 APPPATH\Controllers\Carrito_controller.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detalleVenta', 'APPPATH\\Controllers\\Carrito_controller.php', 97)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->terminarCompra()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 23:35:45 --> Undefined variable $cart
+in APPPATH\Controllers\Carrito_controller.php on line 104.
+ 1 APPPATH\Controllers\Carrito_controller.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cart', 'APPPATH\\Controllers\\Carrito_controller.php', 104)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->terminarCompra()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 23:47:49 --> Call to undefined method App\Libraries\Cart::cartDestroy()
+in APPPATH\Controllers\Carrito_controller.php on line 104.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->terminarCompra()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-29 23:48:37 --> The route for "mostrarProductos" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('mostrarProductos')
+ 2 APPPATH\Controllers\Carrito_controller.php(107): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->terminarCompra()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,249 @@
+CRITICAL - 2024-06-09 03:36:16 --> Call to undefined method App\Models\Factura_model::getDetalleFactura
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Carrito_controller.php(111): CodeIgniter\Model->__call('getDetalleFactura', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCompras()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-09 03:38:51 --> mysqli_sql_exception: Column 'id_usuario' in where clause is ambiguous in C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_Lu_Teves\app\Models\Factura_model.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_Lu_Teves\app\Controllers\Carrito_controller.php(111): App\Models\Factura_model->getDetalleFactura()
+#6 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCompras()
+#7 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#8 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto_Lu_Teves\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-09 03:38:51 --> Column 'id_usuario' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `facturas`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `facturas`.`id_usuario`
+WHERE `id_usuario` = :id_usuario:', [...], false)
+ 2 APPPATH\Models\Factura_model.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Carrito_controller.php(111): App\Models\Factura_model->getDetalleFactura()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCompras()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-09 03:40:00 --> Undefined variable $id
+in APPPATH\Models\Factura_model.php on line 43.
+ 1 APPPATH\Models\Factura_model.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Models\\Factura_model.php', 43)
+ 2 APPPATH\Controllers\Carrito_controller.php(111): App\Models\Factura_model->getDetalleFactura()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCompras()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-09 03:48:18 --> mysqli_sql_exception: Column 'id_usuario' in where clause is ambiguous in C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_Lu_Teves\app\Models\Factura_model.php(42): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_Lu_Teves\app\Controllers\Carrito_controller.php(111): App\Models\Factura_model->getDetalleFactura()
+#6 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCompras()
+#7 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#8 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto_Lu_Teves\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-09 03:48:19 --> Column 'id_usuario' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `facturas`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `facturas`.`id_usuario`
+WHERE `id_usuario` = :id_usuario:', [...], false)
+ 2 APPPATH\Models\Factura_model.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Carrito_controller.php(111): App\Models\Factura_model->getDetalleFactura()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCompras()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-09 03:49:11 --> mysqli_sql_exception: Column 'id_usuario' in where clause is ambiguous in C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_Lu_Teves\app\Models\Factura_model.php(42): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_Lu_Teves\app\Controllers\Carrito_controller.php(111): App\Models\Factura_model->getDetalleFactura()
+#6 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCompras()
+#7 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#8 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto_Lu_Teves\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-09 03:49:11 --> Column 'id_usuario' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `facturas`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `facturas`.`id_usuario`
+WHERE `id_usuario` = :id_usuario:', [...], false)
+ 2 APPPATH\Models\Factura_model.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Carrito_controller.php(111): App\Models\Factura_model->getDetalleFactura()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCompras()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-09 03:49:44 --> mysqli_sql_exception: Column 'id_usuario' in where clause is ambiguous in C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_Lu_Teves\app\Models\Factura_model.php(42): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_Lu_Teves\app\Controllers\Carrito_controller.php(111): App\Models\Factura_model->getDetalleFactura()
+#6 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCompras()
+#7 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#8 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto_Lu_Teves\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-09 03:49:44 --> Column 'id_usuario' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `facturas`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `facturas`.`id_usuario`
+WHERE `id_usuario` IS NULL', [], false)
+ 2 APPPATH\Models\Factura_model.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Carrito_controller.php(111): App\Models\Factura_model->getDetalleFactura()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCompras()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-09 03:50:09 --> Undefined array key "venta_fecha"
+in APPPATH\Views\VerCompras.php on line 18.
+ 1 APPPATH\Views\VerCompras.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "venta_fecha"', 'APPPATH\\Views\\VerCompras.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VerCompras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('VerCompras', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(114): view('VerCompras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCompras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-09 03:57:38 --> Undefined array key "nombre"
+in APPPATH\Views\VerCompras.php on line 11.
+ 1 APPPATH\Views\VerCompras.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'APPPATH\\Views\\VerCompras.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\VerCompras.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('VerCompras', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(114): view('VerCompras', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCompras()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-09 04:01:00 --> mysqli_sql_exception: Column 'id_usuario' in where clause is ambiguous in C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_Lu_Teves\app\Models\Factura_model.php(42): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_Lu_Teves\app\Controllers\Carrito_controller.php(111): App\Models\Factura_model->getDetalleFactura()
+#6 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCompras()
+#7 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#8 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto_Lu_Teves\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-09 04:01:00 --> Column 'id_usuario' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `facturas`
+JOIN `usuarios` ON `usuarios`.`id_usuario` = `facturas`.`id_usuario`
+WHERE `id_usuario` = :id_usuario:', [...], false)
+ 2 APPPATH\Models\Factura_model.php(42): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Carrito_controller.php(111): App\Models\Factura_model->getDetalleFactura()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCompras()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-09 04:04:02 --> Undefined array key "venta_fecha"
+in APPPATH\Views\Ventas.php on line 18.
+ 1 APPPATH\Views\Ventas.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "venta_fecha"', 'APPPATH\\Views\\Ventas.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Ventas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Ventas', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(124): view('Ventas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->listarVentas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-09 04:52:50 --> syntax error, unexpected token "echo"
+in APPPATH\Controllers\Producto_controller.php on line 173.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Producto_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Producto_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Producto_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Producto_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-09 04:53:08 --> syntax error, unexpected token "echo"
+in APPPATH\Controllers\Producto_controller.php on line 173.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Producto_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Producto_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Producto_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Producto_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-09 04:53:46 --> syntax error, unexpected token "echo"
+in APPPATH\Controllers\Producto_controller.php on line 173.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Producto_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Producto_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Producto_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Producto_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-09 04:54:59 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\Producto_controller.php on line 173.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Producto_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Producto_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Producto_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Producto_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-09 04:55:15 --> syntax error, unexpected token "return"
+in APPPATH\Controllers\Producto_controller.php on line 173.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Producto_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Producto_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Producto_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Producto_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-09 04:56:12 --> syntax error, unexpected token "echo"
+in APPPATH\Controllers\Producto_controller.php on line 173.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Producto_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Producto_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Producto_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Producto_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-09 05:00:50 --> Undefined variable $productos
+in APPPATH\Views\Catalogo.php on line 31.
+ 1 APPPATH\Views\Catalogo.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'APPPATH\\Views\\Catalogo.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Catalogo', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(159): view('Catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->mostrarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-09 05:09:08 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\Catalogo.php on line 60.
+ 1 APPPATH\Views\Catalogo.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\Catalogo.php', 60)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Catalogo', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(167): view('Catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->mostrarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

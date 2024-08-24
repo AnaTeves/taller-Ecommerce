@@ -1,0 +1,546 @@
+.estiloDerechos {
+  font-size: 11px;
+  text-align: center;
+}
+
+.limite {
+  position: relative;
+}
+/**Estilos de la sub barra de navegacion*/
+.subbarra {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 16px;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  height: 64px;
+  font-family: serif;
+}
+
+.btn-style{
+  margin: 0 25px;
+  text-transform: uppercase; /* Transforma a mayusculas */
+}    
+
+/* Alinea el boton de busqueda al lado derecho del formulario */
+.form-inline{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.form-control{
+  flex: 1;
+}
+/**Ajusta la imagen principal del catalogo*/
+.configImg{
+  height: 100px;
+  width: 70%;
+  object-fit: cover;
+  box-shadow: 2px 2px 2px 1px rgba(72, 62, 44, 0.666);
+}
+
+/**Ajusta las imagenes de las cards del catalogo*/
+.config-img {
+  width: 170px;
+  height: 170px;
+}
+  
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px; /* Para agregar algo de espacio a los lados */
+  box-sizing: border-box; /* Asegúrate de que el relleno y el borde se incluyan en el ancho total del elemento */
+}
+
+img, table, video {
+  max-width: 100%;
+  height: auto;
+}
+
+    /*Establece cambios para todo el proyecto*/
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth; /*Comportamiento de desplazamiento suave*/
+    }
+
+    .column{
+      justify-content: center;
+      display: grid;
+    }
+
+    .styleFooter a{
+      color: rgb(40, 38, 38);
+    }
+
+    .custom-btn a{
+      color: black;
+    }
+
+    .styleFooter h5{
+      font-family: serif;
+      font-weight: bold;
+      color: rgb(109, 96, 71);
+      font-size: 17px;
+    }
+
+    .custom-btn{
+        background-color: #b4a17d69; /* Verde personalizado */
+        color: rgb(0, 0, 0); /* Texto blanco */
+        border-radius: 12px; /* Bordes redondeados */
+        padding: 10px 20px; /* Espaciado interno */
+        font-size: 16px; /* Tamaño de fuente */
+        
+    }
+
+    .custom-btn:hover {
+      background-color: #80776d27; /* Color al pasar el mouse */
+  }
+  .custom-icon {
+      margin-right: 5px; /* Espaciado entre el ícono y el texto */
+  }
+
+    .pagination .page-item {
+      margin: 0; /* Eliminar margen entre elementos de paginación */
+  }
+  
+  .pagination .page-item .page-link {
+      border-radius: 0; /* Evitar bordes redondeados */
+      background-color: #948b7b;
+      color: white;
+  }
+  
+  .pagination .page-item:first-child .page-link,
+  .pagination .page-item:last-child .page-link {
+      border-radius: 4px; /* Bordes redondeados solo en los extremos */
+  }
+  
+  .pagination .page-item.active .page-link {
+      z-index: 1;
+  }
+  
+    .mensajes{
+      background-color: #948b7b;
+    }
+
+    .fila td{
+      background-color: rgba(131, 125, 125, 0.505);
+    }
+
+    .botton{
+      padding: 0 0 20px 0; 
+    }
+
+    .styleTittleTable th{
+      background-color: #dad0d0;
+    }
+
+    .icono-color{
+      color: #c3beb6e2;
+    }
+
+    .textCarrito{
+      font-size: 25px;
+      margin: 8px 0;
+      padding: 0;
+    }
+
+    .alert-warning{
+      border-color: #483e2c;
+    }
+
+    .filtro {
+      width: 500px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .h2, p{
+      color: white;
+    }
+    
+    .table{
+      max-width: 800px; /* Establece un ancho máximo */
+      margin: 0 auto;
+    }
+
+    body {
+      /*background-color: #fbfbea; Establece el color de fondo a todo el cuerpo de la pagina*/
+      background-image: url(../img/wallpaperforms2.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      overflow-x: hidden;
+    }
+        
+        /******************************************************** ESTILOS DEL FOOTER *****************************************************/
+    footer{
+      background-color: #f0ebeb;
+    }
+
+    .estiloDerechos {
+      font-size: 11px;
+      text-align: center;
+    }
+        /*ESTILO TITULO DENTRO DEL NAV*/
+    .titleprincipal {
+      font-family: "Exo 2";
+      font-weight: bold;
+      color:  #807766;
+      text-align: left;
+      padding: 10px 30px 1px 0;
+    }
+
+    /*Establece cambios en todos los h1 de la pagina*/
+    h1 {
+      font-family: serif;
+      margin-top: 5;
+      padding: 10px;
+      margin-bottom: 5;
+      color: white;
+    }
+
+    /***********************************************************ESTILOS DE AMBOS CARRUSELES****************************************************/
+    .carousel-item img {
+      height: 450px; /* Establece la altura deseada para las imágenes */
+      object-fit: cover;
+    }
+
+    /*CAROUSEL MOBILE*/
+    @media screen and (max-width:767px) {
+      .carousel-item img {
+        height: 300px; /* Establece la altura deseada para las imágenes */
+        object-fit: cover; /* Ajusta la imagen dentro de su contenedor sin deformarla */
+      }
+
+      .stylesPrincipal h1{
+        font-size: 20px;
+      }
+    }
+    /*FIN ESTILOS AMBOS CARRUSELES*/
+  
+    /*ESTILOS DE TARJETAS DEL STAFF*/
+    .estiloTarjeta {
+      border-radius: 1px;
+      box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.3);
+      flex-direction: row;
+      background-color: #948b7b;
+    }
+
+    @media (max-width: 768px) {
+      .card-container {
+          flex-direction: column; /* Apilar verticalmente en móviles */
+      }
+
+      .fila {
+        flex-direction: column;
+      }
+
+      .stylesPrincipal p{
+        margin: 3px;
+      }
+  }
+
+    .styleHeader h2 {
+      font-size: 20px;
+      padding: 5px;
+      margin: 0;
+    }
+
+    .styleHeader h4 {
+      font-size: 18px;
+      color: rgba(59, 54, 53, 0.703);
+    }
+
+    .styleHeader {
+      display: block;
+      padding: 0;
+    }
+
+    .description {
+      background-color: white;
+      padding: 0;
+      display: block;
+    }
+
+    .description p {
+      margin: 10px;
+      text-align: justify;
+      color: black;
+    }
+
+    .header, .description {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .header a {
+      position: relative;
+      display: block;
+    }
+
+    .row {
+      /*display: flex;*/
+      margin-top: 20px;
+      margin-bottom: 0px;
+      padding: 2px;
+      
+    }
+
+    .col {
+      padding: 15px;
+    }
+
+    .col a {
+      align-items: end;
+      color: #807766;
+      padding: 12px;
+    }
+
+    h2 {
+      padding: 20px 20px 20px 20px;
+      color: white;
+    }
+
+    .container1 {
+        display: flex;
+        
+        flex-direction: column;
+        
+        justify-content: center;
+    }
+
+    section p {
+      text-align: justify;
+      margin: 20px;
+    }
+
+    .col h3 {
+      text-align: left;
+      font-size: 14px;
+    }
+
+    /* ESTILOS QUIENES SOMOS */
+    .styleTrayectoria {
+      font-size: 16px;
+      display: block;
+      padding: 0;
+      margin: 0;
+      text-align: justify;
+      text-indent: 4em;
+    }
+
+    section h2 {
+      font-size: 14px;
+    }
+
+    .styleTittle h1 {
+      margin: 20px 0 0 0;
+    }
+
+    /* Estilo de la imagen de la tarjeta del staff*/
+    .header img {
+      border-radius: 50%;
+      box-shadow: 0 0 0 0;
+      margin: 10px;
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+    }
+
+    .header h4 {
+      margin-bottom: 20px;
+    }
+
+    .description .social {
+      margin-top: 25px;
+    }
+
+    .description .social a {
+      display: inline-block;
+      padding: 0 15px;
+      color: #D4B49C;
+    }
+
+    /* MOBILE */
+    @media (max-width:630px){
+      .estiloTarjeta {
+        display: block;
+        /*height: auto;*/
+      }
+
+      .header {
+        padding: 20px 20px 5px 20px;
+        border: none;
+      }
+
+      .description {
+        padding: 5px 20px 20px 20px;
+      }
+    }
+    
+    /*************************************************** ESTILOS PAGINA PRINCIPAL **************************************************/
+    .stylesPrincipal h1{
+      margin: 20px 40px;
+      font-size: 25px;
+      color: white;
+      text-align: left;
+    }
+
+    .stylesPrincipal hr{
+      height: 3px;
+      width: 85%;
+      background-color: white;    
+      margin: 0 auto;
+    }
+
+    .stylesPrincipal p{
+      /* margin: 20px 50px; */
+      font-size: 17px;
+      text-align: justify;
+      color: white;
+      line-height: 2;
+    }
+
+    .stylesPrincipal{
+      padding: 20px 10px 10px 10px;
+      text-align: center;
+      color: white;
+      font-family: serif;
+    }
+
+    .card-body h5{
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .card-title {
+      margin: 12px 4px;
+      font-size: 18px;
+    }
+
+    .btn-princ{
+      border: 3px inset white;
+      color: white;
+      background-color: transparent;
+    }
+
+    .btn-princ:hover{
+      border: 3px inset white;
+      color: white;
+      background-color: transparent;
+    }
+
+    .cardStyle{
+      /* box-shadow: 2px 2px 6px 4px rgba(187, 180, 180, 0.221); */
+      border: 4px inset rgba(123, 101, 76, 0.33);
+    }
+
+    .cardStyle h2 {
+      padding: 10px;
+      font-size: 16px;
+    }
+
+    .styleBtn {
+      background-color: #807766;
+    }
+
+    .styleCompras{
+      padding: 40px;
+      margin: 0 0 10px 0;
+      background-color: #c3beb6;
+      border: 4px inset rgb(153, 153, 153);
+    }
+
+    .styleCardExt {
+      padding: 20px;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .styleCardExt:hover {
+      scale: 1.1;
+    }
+
+    .styleComercializacion img{
+      width: 50px;
+      height: 50px;
+    }
+
+    .row iframe {
+      padding: 40px;
+    }
+
+    /*****************************************************************SECCION CONTACTO**********************************************************/
+    @media screen and (max-width: 580px){
+      .styleContact{
+        margin:30px;
+      }
+
+      .styleCompras{
+        padding: 40px;
+        margin: 0 30px 10px 30px;
+        background-color: #c3beb6;
+        border: 4px inset rgb(153, 153, 153);
+      }
+    }
+
+    .styleMaps {
+      width: auto;
+      height: 200px;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .card-container {
+      background-color: rgba(255, 255, 255, 0.9);
+      box-shadow: #ffffff;
+      /* background-image: url(../img/wallpaperforms2.jpg);
+      background-size: cover; */
+      box-shadow: 2px 2px 6px 4px rgba(182, 176, 176, 0.325);
+      margin: 20px;
+      padding: 8px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .styleButton {
+      background-color: #c9bcbc;
+      border: #706054;
+    }
+
+    .styleButton:hover {
+      background-color: #b6a9a9;
+    }
+
+    .styleButton:active{
+      background-color: #f0ebeb;
+    }
+    
+    h6 {
+      text-align: center;
+    }
+
+    /**************************************************************** SECCION COMERCIALIZACION ***********************************************/
+    .styleIcons {
+      text-align: center;
+    }
+
+    .styleIcons img {
+      width: 60px;
+      height: 60px;
+      margin: 30px;
+    }
+
+    .styleUsos {
+      text-align: justify;
+      padding: 10px 50px 20px 50px;
+      margin: 0 0 40px 0;
+    }
+
+    .avisoStyle {
+      margin: 10px 10px 8px 10px;
+    }

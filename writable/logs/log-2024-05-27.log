@@ -1,0 +1,33 @@
+CRITICAL - 2024-05-27 00:13:48 --> Undefined variable $pager
+in APPPATH\Views\Catalogo.php on line 37.
+ 1 APPPATH\Views\Catalogo.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'APPPATH\\Views\\Catalogo.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Catalogo', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(148): view('Catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->mostrarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 00:27:01 --> Undefined variable $pager
+in APPPATH\Views\Catalogo.php on line 37.
+ 1 APPPATH\Views\Catalogo.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'APPPATH\\Views\\Catalogo.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Catalogo', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(148): view('Catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->mostrarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-27 00:31:31 --> Undefined variable $pager
+in APPPATH\Views\Catalogo.php on line 47.
+ 1 APPPATH\Views\Catalogo.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'APPPATH\\Views\\Catalogo.php', 47)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Catalogo.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Catalogo', [], true)
+ 5 APPPATH\Controllers\Producto_controller.php(148): view('Catalogo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->mostrarProductos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

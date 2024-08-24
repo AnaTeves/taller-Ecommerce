@@ -1,0 +1,546 @@
+CRITICAL - 2024-06-17 06:45:51 --> Too few arguments to function App\Controllers\Carrito_controller::agregarCarrito(), 0 passed in C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Carrito_controller.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->agregarCarrito()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 06:46:44 --> Undefined variable $id
+in APPPATH\Controllers\Carrito_controller.php on line 21.
+ 1 APPPATH\Controllers\Carrito_controller.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Controllers\\Carrito_controller.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->agregarCarrito()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 06:47:09 --> Undefined variable $reques
+in APPPATH\Controllers\Carrito_controller.php on line 21.
+ 1 APPPATH\Controllers\Carrito_controller.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reques', 'APPPATH\\Controllers\\Carrito_controller.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->agregarCarrito()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 06:47:32 --> Undefined array key "rowid"
+in APPPATH\Views\Carrito.php on line 41.
+ 1 APPPATH\Views\Carrito.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rowid"', 'APPPATH\\Views\\Carrito.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Carrito', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(41): view('Carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCarrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 06:47:39 --> Undefined array key "rowid"
+in APPPATH\Views\Carrito.php on line 41.
+ 1 APPPATH\Views\Carrito.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rowid"', 'APPPATH\\Views\\Carrito.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Carrito', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(41): view('Carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCarrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 17:04:35 --> Undefined array key "rowid"
+in APPPATH\Views\Carrito.php on line 44.
+ 1 APPPATH\Views\Carrito.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rowid"', 'APPPATH\\Views\\Carrito.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Carrito', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(41): view('Carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCarrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 17:05:00 --> Undefined array key "rowid"
+in APPPATH\Views\Carrito.php on line 44.
+ 1 APPPATH\Views\Carrito.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rowid"', 'APPPATH\\Views\\Carrito.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Carrito', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(41): view('Carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCarrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 17:05:25 --> Undefined array key "rowid"
+in APPPATH\Views\Carrito.php on line 44.
+ 1 APPPATH\Views\Carrito.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rowid"', 'APPPATH\\Views\\Carrito.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Carrito', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(41): view('Carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCarrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 17:26:52 --> Undefined array key "rowid"
+in APPPATH\Views\Carrito.php on line 42.
+ 1 APPPATH\Views\Carrito.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rowid"', 'APPPATH\\Views\\Carrito.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Carrito', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(41): view('Carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCarrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 17:27:11 --> Undefined array key "rowid"
+in APPPATH\Views\Carrito.php on line 42.
+ 1 APPPATH\Views\Carrito.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rowid"', 'APPPATH\\Views\\Carrito.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Carrito', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(41): view('Carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCarrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 17:32:07 --> Undefined array key "rowid"
+in APPPATH\Views\Carrito.php on line 42.
+ 1 APPPATH\Views\Carrito.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rowid"', 'APPPATH\\Views\\Carrito.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Carrito', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(41): view('Carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCarrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 17:32:28 --> Undefined array key "rowid"
+in APPPATH\Views\Carrito.php on line 42.
+ 1 APPPATH\Views\Carrito.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rowid"', 'APPPATH\\Views\\Carrito.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Carrito', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(41): view('Carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCarrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 17:32:31 --> Undefined array key "rowid"
+in APPPATH\Views\Carrito.php on line 42.
+ 1 APPPATH\Views\Carrito.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rowid"', 'APPPATH\\Views\\Carrito.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Carrito', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(41): view('Carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCarrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 17:37:34 --> Undefined array key "rowid"
+in APPPATH\Views\Carrito.php on line 42.
+ 1 APPPATH\Views\Carrito.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rowid"', 'APPPATH\\Views\\Carrito.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Carrito', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(41): view('Carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCarrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 17:41:14 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\Carrito_controller.php on line 21.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Carrito_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Carrito_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Carrito_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Carrito_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 17:41:24 --> Undefined array key "rowid"
+in APPPATH\Views\Carrito.php on line 42.
+ 1 APPPATH\Views\Carrito.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rowid"', 'APPPATH\\Views\\Carrito.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Carrito.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Carrito', [], true)
+ 5 APPPATH\Controllers\Carrito_controller.php(42): view('Carrito', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->verCarrito()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 17:57:05 --> Undefined variable $productos
+in APPPATH\Controllers\Carrito_controller.php on line 37.
+ 1 APPPATH\Controllers\Carrito_controller.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'APPPATH\\Controllers\\Carrito_controller.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->incrementarCantidad('13')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 17:58:11 --> Too few arguments to function App\Libraries\Cart::update(), 1 passed in C:\xampp\htdocs\proyecto_Lu_Teves\app\Controllers\Carrito_controller.php on line 51 and exactly 2 expected
+in APPPATH\Libraries\Cart.php on line 38.
+ 1 APPPATH\Controllers\Carrito_controller.php(51): App\Libraries\Cart->update([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->incrementarCantidad('13')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 18:54:09 --> syntax error, unexpected variable "$this", expecting "function" or "const"
+in APPPATH\Controllers\Carrito_controller.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Carrito_controller.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Carrito_controller')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Carrito_controller')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Carrito_controller', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 18:55:04 --> Undefined variable $item
+in APPPATH\Libraries\Cart.php on line 14.
+ 1 APPPATH\Libraries\Cart.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'APPPATH\\Libraries\\Cart.php', 14)
+ 2 APPPATH\Controllers\Carrito_controller.php(34): App\Libraries\Cart->increment('13')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->incrementarCantidad('13')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 18:55:29 --> Cannot access offset of type string on string
+in APPPATH\Libraries\Cart.php on line 14.
+ 1 APPPATH\Controllers\Carrito_controller.php(34): App\Libraries\Cart->increment('13')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->incrementarCantidad('13')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 18:56:38 --> Cannot access offset of type string on string
+in APPPATH\Libraries\Cart.php on line 16.
+ 1 APPPATH\Controllers\Carrito_controller.php(34): App\Libraries\Cart->increment('13')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->incrementarCantidad('13')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 18:58:29 --> Cannot access offset of type string on string
+in APPPATH\Libraries\Cart.php on line 16.
+ 1 APPPATH\Controllers\Carrito_controller.php(34): App\Libraries\Cart->increment('13')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->incrementarCantidad('13')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 18:58:42 --> Cannot access offset of type string on string
+in APPPATH\Libraries\Cart.php on line 18.
+ 1 APPPATH\Controllers\Carrito_controller.php(34): App\Libraries\Cart->increment('13')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Carrito_controller->incrementarCantidad('13')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 20:44:19 --> Class "App\Controllers\DetalleFactura_model" not found
+in APPPATH\Controllers\Admin_controller.php on line 157.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 20:44:57 --> Class "App\Controllers\DetalleFactura_model" not found
+in APPPATH\Controllers\Admin_controller.php on line 158.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 20:45:08 --> Undefined variable $db
+in APPPATH\Controllers\Admin_controller.php on line 158.
+ 1 APPPATH\Controllers\Admin_controller.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Controllers\\Admin_controller.php', 158)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-17 20:45:48 --> mysqli_sql_exception: Unknown column 'id_factura' in 'where clause' in C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_Lu_Teves\app\Models\DetalleFactura_model.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_Lu_Teves\app\Controllers\Admin_controller.php(161): App\Models\DetalleFactura_model->getDetalleFactura('16')
+#6 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+#7 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+#8 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto_Lu_Teves\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-17 20:45:48 --> Unknown column 'id_factura' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `detalle_factura`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_factura`.`id_producto`
+WHERE `id_factura` = :id_factura:', [...], false)
+ 2 APPPATH\Models\DetalleFactura_model.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin_controller.php(161): App\Models\DetalleFactura_model->getDetalleFactura('16')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-17 20:47:24 --> mysqli_sql_exception: Unknown column 'id_factura' in 'where clause' in C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_Lu_Teves\app\Models\DetalleFactura_model.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_Lu_Teves\app\Controllers\Admin_controller.php(161): App\Models\DetalleFactura_model->getDetalleFactura('16')
+#6 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+#7 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+#8 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto_Lu_Teves\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-17 20:47:24 --> Unknown column 'id_factura' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `detalle_factura`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_factura`.`id_producto`
+WHERE `id_factura` = :id_factura:', [...], false)
+ 2 APPPATH\Models\DetalleFactura_model.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin_controller.php(161): App\Models\DetalleFactura_model->getDetalleFactura('16')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-17 20:49:12 --> mysqli_sql_exception: Unknown column 'id_factura' in 'where clause' in C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_Lu_Teves\app\Models\DetalleFactura_model.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_Lu_Teves\app\Controllers\Admin_controller.php(161): App\Models\DetalleFactura_model->getDetalleFactura('16')
+#6 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+#7 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+#8 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto_Lu_Teves\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-17 20:49:12 --> Unknown column 'id_factura' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `detalle_factura`
+JOIN `productos` ON `productos`.`id_producto` = `detalle_factura`.`id_producto`
+WHERE `id_factura` = :id_factura:', [...], false)
+ 2 APPPATH\Models\DetalleFactura_model.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin_controller.php(161): App\Models\DetalleFactura_model->getDetalleFactura('16')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 21:55:25 --> Undefined property: App\Controllers\Admin_controller::$Factura_model
+in APPPATH\Controllers\Admin_controller.php on line 191.
+ 1 APPPATH\Controllers\Admin_controller.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin_controller::$Factura_model', 'APPPATH\\Controllers\\Admin_controller.php', 191)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 21:56:18 --> Undefined property: App\Controllers\Admin_controller::$load
+in APPPATH\Controllers\Admin_controller.php on line 190.
+ 1 APPPATH\Controllers\Admin_controller.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin_controller::$load', 'APPPATH\\Controllers\\Admin_controller.php', 190)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 21:56:32 --> Undefined property: App\Controllers\Admin_controller::$load
+in APPPATH\Controllers\Admin_controller.php on line 190.
+ 1 APPPATH\Controllers\Admin_controller.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin_controller::$load', 'APPPATH\\Controllers\\Admin_controller.php', 190)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 21:57:43 --> Class "App\Controllers\Factura_model" not found
+in APPPATH\Controllers\Admin_controller.php on line 190.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 21:58:09 --> Class "App\Controllers\getDetalleFactura_model" not found
+in APPPATH\Controllers\Admin_controller.php on line 192.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 21:58:22 --> Object of class App\Models\Factura_model could not be converted to string
+in APPPATH\Controllers\Admin_controller.php on line 194.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 21:59:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\Factura_model.php on line 49.
+ 1 APPPATH\Controllers\Admin_controller.php(194): App\Models\Factura_model->getFacturaById('16')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 22:02:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::from()
+in APPPATH\Models\Factura_model.php on line 53.
+ 1 APPPATH\Controllers\Admin_controller.php(194): App\Models\Factura_model->getFacturaById('16')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-17 22:03:01 --> mysqli_sql_exception: Not unique table/alias: 'facturas' in C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `factura...', 0)
+#1 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `factura...')
+#2 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `factura...')
+#3 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `factura...', Array, false)
+#4 C:\xampp\htdocs\proyecto_Lu_Teves\app\Models\Factura_model.php(56): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_Lu_Teves\app\Controllers\Admin_controller.php(194): App\Models\Factura_model->getFacturaById('16')
+#6 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+#7 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+#8 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto_Lu_Teves\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-17 22:03:01 --> Not unique table/alias: 'facturas'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `facturas`.`id_usuario`, `usuarios`.`nombre`, `usuarios`.`apellido`
+FROM (`facturas`, `facturas`)
+JOIN `usuarios` ON `facturas`.`id_usuario` = `usuarios`.`id_usuario`
+WHERE `facturas`.`id_venta` = :facturas.id_venta:', [...], false)
+ 2 APPPATH\Models\Factura_model.php(56): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin_controller.php(194): App\Models\Factura_model->getFacturaById('16')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 22:03:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH\Models\Factura_model.php on line 57.
+ 1 APPPATH\Controllers\Admin_controller.php(194): App\Models\Factura_model->getFacturaById('16')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 22:03:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\DetalleFactura_model.php on line 48.
+ 1 APPPATH\Controllers\Admin_controller.php(197): App\Models\DetalleFactura_model->getDetallesByVentaId('16')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-17 22:05:31 --> mysqli_sql_exception: Unknown column 'productos.nombre' in 'field list' in C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `detalle...', 0)
+#1 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `detalle...')
+#2 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `detalle...')
+#3 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `detalle...', Array, false)
+#4 C:\xampp\htdocs\proyecto_Lu_Teves\app\Models\DetalleFactura_model.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_Lu_Teves\app\Controllers\Admin_controller.php(197): App\Models\DetalleFactura_model->getDetallesByVentaId('16')
+#6 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+#7 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+#8 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\proyecto_Lu_Teves\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-06-17 22:05:31 --> Unknown column 'productos.nombre' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `detalle_factura`.`id_producto`, `productos`.`nombre` as `producto_nombre`, `detalle_factura`.`detalle_cantidad`, `detalle_factura`.`detalle_precio`
+FROM `detalle_factura`
+JOIN `productos` ON `detalle_factura`.`id_producto` = `productos`.`id_producto`
+WHERE `detalle_factura`.`id_venta` = :detalle_factura.id_venta:', [...], false)
+ 2 APPPATH\Models\DetalleFactura_model.php(55): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin_controller.php(197): App\Models\DetalleFactura_model->getDetallesByVentaId('16')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 22:06:07 --> Undefined property: App\Controllers\Admin_controller::$load
+in APPPATH\Controllers\Admin_controller.php on line 203.
+ 1 APPPATH\Controllers\Admin_controller.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Admin_controller::$load', 'APPPATH\\Controllers\\Admin_controller.php', 203)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 22:07:03 --> Attempt to read property "nombre" on array
+in APPPATH\Views\DetalleVenta.php on line 5.
+ 1 APPPATH\Views\DetalleVenta.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'APPPATH\\Views\\DetalleVenta.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\DetalleVenta.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('DetalleVenta', [], true)
+ 5 APPPATH\Controllers\Admin_controller.php(205): view('DetalleVenta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 22:09:18 --> Undefined array key "nombre"
+in APPPATH\Views\DetalleVenta.php on line 5.
+ 1 APPPATH\Views\DetalleVenta.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'APPPATH\\Views\\DetalleVenta.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\DetalleVenta.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('DetalleVenta', [], true)
+ 5 APPPATH\Controllers\Admin_controller.php(205): view('DetalleVenta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 22:17:50 --> Undefined array key "nombre"
+in APPPATH\Views\DetalleVenta.php on line 5.
+ 1 APPPATH\Views\DetalleVenta.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'APPPATH\\Views\\DetalleVenta.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\DetalleVenta.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('DetalleVenta', [], true)
+ 5 APPPATH\Controllers\Admin_controller.php(200): view('DetalleVenta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 22:19:39 --> Undefined array key "cantidad"
+in APPPATH\Views\DetalleVenta.php on line 25.
+ 1 APPPATH\Views\DetalleVenta.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'APPPATH\\Views\\DetalleVenta.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\DetalleVenta.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('DetalleVenta', [], true)
+ 5 APPPATH\Controllers\Admin_controller.php(200): view('DetalleVenta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 22:21:42 --> Undefined array key "nombre"
+in APPPATH\Views\DetalleVenta.php on line 5.
+ 1 APPPATH\Views\DetalleVenta.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'APPPATH\\Views\\DetalleVenta.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\DetalleVenta.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('DetalleVenta', [], true)
+ 5 APPPATH\Controllers\Admin_controller.php(200): view('DetalleVenta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 22:23:08 --> Undefined array key "id_venta"
+in APPPATH\Views\DetalleVenta.php on line 5.
+ 1 APPPATH\Views\DetalleVenta.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_venta"', 'APPPATH\\Views\\DetalleVenta.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\DetalleVenta.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('DetalleVenta', [], true)
+ 5 APPPATH\Controllers\Admin_controller.php(200): view('DetalleVenta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 22:57:14 --> Undefined array key "nombre"
+in APPPATH\Views\DetalleVenta.php on line 5.
+ 1 APPPATH\Views\DetalleVenta.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'APPPATH\\Views\\DetalleVenta.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\DetalleVenta.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('DetalleVenta', [], true)
+ 5 APPPATH\Controllers\Admin_controller.php(200): view('DetalleVenta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('20')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 23:03:29 --> Undefined array key "nombre"
+in APPPATH\Views\DetalleVenta.php on line 5.
+ 1 APPPATH\Views\DetalleVenta.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'APPPATH\\Views\\DetalleVenta.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\DetalleVenta.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('DetalleVenta', [], true)
+ 5 APPPATH\Controllers\Admin_controller.php(205): view('DetalleVenta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('20')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 23:03:43 --> Undefined array key "nombre"
+in APPPATH\Views\DetalleVenta.php on line 5.
+ 1 APPPATH\Views\DetalleVenta.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'APPPATH\\Views\\DetalleVenta.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\DetalleVenta.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('DetalleVenta', [], true)
+ 5 APPPATH\Controllers\Admin_controller.php(205): view('DetalleVenta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('20')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-17 23:16:02 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+in APPPATH\Views\DetalleVenta.php on line 45.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('DetalleVenta', [], true)
+ 3 APPPATH\Controllers\Admin_controller.php(200): view('DetalleVenta', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin_controller->mostrarDetalleVentas('20')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,29 @@
+ERROR - 2024-07-30 01:02:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 6 in C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\proyecto_Lu_Teves\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\proyecto_Lu_Teves\system\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\proyecto_Lu_Teves\system\BaseModel.php(1188): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\proyecto_Lu_Teves\app\Controllers\Producto_controller.php(261): CodeIgniter\BaseModel->paginate(12, 'productos')
+#7 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(934): App\Controllers\Producto_controller->buscarProductos()
+#8 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#9 C:\xampp\htdocs\proyecto_Lu_Teves\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_Lu_Teves\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-07-30 01:02:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 6
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `productos`
+WHERE `producto_estado` = :producto_estado:
+AND  `producto_nombre` LIKE :producto_nombre: ESCAPE \'!\'
+OR  `producto_descripcion` LIKE :producto_descripcion: ESCAPE \'!\'
+)', [...], false)
+ 2 SYSTEMPATH\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH\BaseModel.php(1188): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Producto_controller.php(261): CodeIgniter\BaseModel->paginate(12, 'productos')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Producto_controller->buscarProductos()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
